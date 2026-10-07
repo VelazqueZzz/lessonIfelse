@@ -3,6 +3,6 @@
 fun main() {
     println("Для входа в приложение решите задачу : 2 + 2 = ?")
     val number = readln().toInt()
-    if (number == 4) println("Доступ разрешён")
-    else println("доступ запрещен")
+    if (number == 4) println("Добро пожаловать!")
+    else println("Доступ запрещен.")
 }
